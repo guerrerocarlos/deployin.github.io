@@ -1,37 +1,108 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,200,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container-full">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-12 logo">
+                            <img class="img-responsive" src="images/deployin-web-brand.png">
+                        </div>
+                        
+                    </div>
+                    
+                    <nav class="navbar navbar-default" role="navigation">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                          <span class="sr-only">Deployin</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            
+                        </a>
+                      </div>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Deployin</title>
-  <meta name="description" content="Deployin">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
-  >
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-  <div id="app"></div>
-
-  <!-- This script adds the Roboto font to our project. For more detail go to this site:  http://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,300,500 -->
-  <script>
-    var WebFontConfig = {
-      google: { families: [ 'Roboto:400,300,500:latin' ] }
-    };
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })();
-  </script>
-  <script src="app.js"></script>
-</body>
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar">
+                            <li><a href="#">Home</a></li>  
+                            <li><a href="#">Solutions</a></li>
+                          <li class="dropdown">
+                            <a href="#" 
+                               class="dropdown-toggle" 
+                               data-toggle="dropdown">
+                                Services 
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">AWS</a></li>
+                              <li><a href="#">OpenStack</a></li>
+                              <li><a href="#">Security</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">Request</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div><!-- /.navbar-collapse -->
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="jumbotron">
+                        <div class="container">
+                            <h1>Managed Cloud Services</h1>
+                            <p>Don't worry about your cloud. We can manage it.</p>
+                            <p><a class="btn btn-primary btn-lg" role="button">Get started today</a></p>
+                        </div>
+                </div>
+                </div>
+                
+            </div>
+            <div class="row services">
+                <div class="col-md-4">
+                    <img class="" alt="AWS" src="images/aws-logo.png" />
+                    <h3>Public Cloud</h3>
+                    <p>
+                        We can <strong>Bootstrap</strong> your cloud in minutes.<br />
+                        We can <strong>Manage</strong> your cloud by you.<br />
+                        You can <strong>Consult</strong> our experts.<br />
+                    </p>
+                    
+                </div>
+                <div class="col-md-4">
+                   <img class="img"  alt="openstack" src="images/openstack-logo.png" />
+                    <h3>Open Stack</h3>
+                    <p>
+                        We can <strong>Bootstrap</strong> your cloud in minutes.<br />
+                        We can <strong>Manage</strong> your cloud by you.<br />
+                        You can <strong>Consult</strong> our experts.<br />
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img" alt="140x140" src="images/pci-logo.png" />
+                    <h3>Security</h3>
+                    <p> 
+                        PCI-DSS/HIPAA Cloud Compliant <br />
+                        Continuous Security Scanning <br />
+                        Dynamic Firewalls <br />
+                        Disposable Servers <br />
+                        Consulting
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
 </html>

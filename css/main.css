@@ -1,0 +1,25 @@
+div.container {
+    padding: 0 15px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+div.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: 40px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+
+div.services {
+    margin: 0 auto;
+    text-align: center;
+}

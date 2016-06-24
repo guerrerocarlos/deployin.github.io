@@ -17,7 +17,9 @@ repositorio original sin previa aprovación del dueño del repositorio.
 
 Para hacer el fork en github basta que vayas al repositorio que quieres "forkear" 
 
-```https://github.com/Deployin/deployin.github.io```
+```
+https://github.com/Deployin/deployin.github.io
+```
 
 Ya en la página del repositorio hacer click sobre el botón "Fork" ubicado en la
 esquina superior derecha de la página. Este proceso creara un repositorio en tu

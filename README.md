@@ -1,8 +1,9 @@
-# Trabajando con forks
+# ¿Cómo Colaborar?
 
-En git fork es básicamente la creación de una copia cruda de un repositorio
-principal en otro repositorio que podrás usar como tuyo y en el cuál podras
-empezar a hacer tus propias modificaciones.
+Puedes colaborar a través de forks, en git fork es básicamente la
+creación de una copia cruda de un repositorio principal en otro
+repositorio que podrás usar como tuyo y en el cuál podras empezar a
+hacer tus propias modificaciones.
 
 ## Como hacer un fork.
 

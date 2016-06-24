@@ -32,3 +32,8 @@ cuenta como un repositorio común un corriente, allí podrás ejecutar todos los
 cambios que desees realizar. Una vez listos los cambios debes realizar un "Pull
 Request (PR)" que básicamente le indica al dueño del repositorio principal que
 hay una serie de cambios que quieren ser integrados al repositorio original.
+
+Para hacer el PR debes ir a la pagina de tu repositorio en github y ubicar el
+botón "New Pull Request" da click allí y esto te llevara a otra pagina donde te
+mostrará donde se desea hacer el PR y la lista de cambios que serán enviados.
+Allí simplemente da click en el botón "Create pull request".

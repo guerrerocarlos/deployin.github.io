@@ -7,102 +7,138 @@
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,200,300' rel='stylesheet' type='text/css'>
     </head>
     <body>
+      <header class="navbar navbar-default navbar-fixed-top navbar-deployin" id="top" role="banner">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Deployin</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--Logo-->
+            <a class="navbar-brand navbar-brand-deployin" href="#">
+                <img class="img-responsive" src="images/deployin-web-brand.png">
+            </a>
+          </div> <!-- end anvbar-header -->
+          <nav role="navigation">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#slider">Home</a></li>
+                  <li><a href="#managed-cloud">Managed Cloud Services</a></li>
+                  <li><a href="#cloud-engagement">Cloud Engagement</a></li>
+                  <li><a href="#">Cloud Security</a></li>
+                  <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                     class="dropdown-toggle"
+                     data-toggle="dropdown">
+                      Services
+                      <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">AWS</a></li>
+                    <li><a href="#">OpenStack</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Request</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </nav>
+        </div>
+      </header>
+      <main>
         <div class="container-full">
-            <div class="row">
-                <div class="col-md-12 col-xs-12">
-                    <div class="row">
-                        <div class="col-md-12 logo">
-                            <img class="img-responsive" src="images/deployin-web-brand.png">
-                        </div>
-                        
-                    </div>
-                    
-                    <nav class="navbar navbar-default" role="navigation">
-                      <!-- Brand and toggle get grouped for better mobile display -->
-                      <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                          <span class="sr-only">Deployin</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">
-                            
-                        </a>
-                      </div>
+          <!--Home-->
+          <section id="slider">
 
-                      <!-- Collect the nav links, forms, and other content for toggling -->
-                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar">
-                            <li><a href="#">Home</a></li>  
-                            <li><a href="#">Solutions</a></li>
-                          <li class="dropdown">
-                            <a href="#" 
-                               class="dropdown-toggle" 
-                               data-toggle="dropdown">
-                                Services 
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a href="#">AWS</a></li>
-                              <li><a href="#">OpenStack</a></li>
-                              <li><a href="#">Security</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Request</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </div><!-- /.navbar-collapse -->
-                    </nav>
-                </div>
-            </div>
-            <div class="row">
+          <div class="marketing row fill">
                 <div class="col-md-12 col-xs-12">
                     <div class="jumbotron">
                         <div class="container">
                             <h1>Managed Cloud Services</h1>
                             <p>Don't worry about your cloud. We can manage it.</p>
-                            <p><a class="btn btn-primary btn-lg" role="button">Get started today</a></p>
+                            <p><button type="button" class="btn btn-info btn-lg">Get started today</button>
+                            </p>
                         </div>
+                   </div>
                 </div>
-                </div>
-                
             </div>
+          </section>
+          <!--/Home-->
+
+
+
+            <!--Managed Cloud Services-->
+            <section id="managed-cloud">
             <div class="row services">
-                <div class="col-md-4">
-                    <img class="" alt="AWS" src="images/aws-logo.png" />
-                    <h3>Public Cloud</h3>
-                    <p>
-                        We can <strong>Bootstrap</strong> your cloud in minutes.<br />
-                        We can <strong>Manage</strong> your cloud by you.<br />
-                        You can <strong>Consult</strong> our experts.<br />
-                    </p>
-                    
+              <div class="col-xs-12">
+
+                <h1>Managed Cloud Services</h1>
+
+              </div>
+
+              <div class="col-xs-4">
+                <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan arcu, sit amet vestibulum lacus. Nulla accumsan, risus non congue fringilla, massa elit egestas nunc, ut vulputate nisl arcu sed felis. Donec elementum rhoncus velit, vel egestas justo iaculis sed. Donec luctus placerat dapibus. Proin egestas commodo ante ut consequat. In sed risus quis erat cursus tincidunt in quis dolor. Phasellus ex erat, egestas nec tristique et, viverra at est. Maecenas et tincidunt leo. Fusce pharetra lobortis sapien nec maximus. Maecenas vulputate at neque quis sodales. Sed ultricies lacus interdum, commodo ligula sed, auctor diam. Maecenas porta tincidunt nibh nec blandit. Praesent cursus lectus vel lacus rutrum, sed consectetur arcu lobortis. Phasellus nibh leo, ultrices faucibus neque vitae, cursus vehicula dui.
+                </p>
+
+              </div>
+             </div>
+
+             <div class="col-xs-8 ">
+                 <img class="images " alt="AWS" src="images/managed.png" />
+
+
+                <div class="col-xs-8 col-md-3">
+                    <img class="img" alt="AWS" src="images/amazon.png" />
+
                 </div>
-                <div class="col-md-4">
-                   <img class="img"  alt="openstack" src="images/openstack-logo.png" />
-                    <h3>Private Cloud</h3>
-                    <p>
-                        We can <strong>Bootstrap</strong> your cloud in minutes.<br />
-                        We can <strong>Manage</strong> your cloud by you.<br />
-                        You can <strong>Consult</strong> our experts.<br />
-                    </p>
+                <div class=" col-md-3">
+                   <img class="img"  alt="openstack" src="images/vmware.png" />
+
                 </div>
-                <div class="col-md-4">
-                    <img class="img" alt="140x140" src="images/pci-logo.png" />
-                    <h3>Security</h3>
-                    <p> 
-                        PCI-DSS/HIPAA Cloud Compliant <br />
-                        Continuous Security Scanning <br />
-                        Dynamic Firewalls <br />
-                        Disposable Servers <br />
-                        Consulting
-                    </p>
+                <div class=" col-md-2">
+                    <img class="img" alt="140x140" src="images/openstack.png" />
+
                 </div>
-                
+              </div>
+
+          </div>
+          </section>
+          <!--/Managed Cloud Services-->
+
+
+          <!--Cloud Engagement<-->
+          <section id="cloud-engagement">
+            <div class="row engagement">
+              <div class="col-xs-12">
+
+                <h1>Cloud Computing Engagement</h1>
+
+              </div>
+              <div class="col-xs-4 ">
+                  <img class="img pull-right " alt="AWS" src="images/Engagement.png" />
+                </div>
+
+              <div class="col-xs-8">
+                <div class="info">
+                <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed accumsan arcu, sit amet vestibulum lacus. Nulla accumsan, risus non congue fringilla, massa elit egestas nunc, ut vulputate nisl arcu sed felis. Donec elementum rhoncus velit, vel egestas justo iaculis sed. Donec luctus placerat dapibus. Proin egestas commodo ante ut consequat. In sed risus quis erat cursus tincidunt in quis dolor. Phasellus ex erat, egestas nec tristique et, viverra at est. Maecenas et tincidunt leo. Fusce pharetra lobortis sapien nec maximus. Maecenas vulputate at neque quis sodales. Sed ultricies lacus interdum, commodo ligula sed, auctor diam. Maecenas porta tincidunt nibh nec blandit. Praesent cursus lectus vel lacus rutrum, sed consectetur arcu lobortis. Phasellus nibh leo, ultrices faucibus neque vitae, cursus vehicula dui.
+                </p>
+
+              </div>
+             </div>
+
             </div>
-        </div>
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+          </section>
+          <!--/Cloud Engagement<-->
+
+
+
+      </main>
+      <script src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>
